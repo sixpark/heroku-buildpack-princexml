@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e # fail build if any part of install fails
-PRINCE_VERSION="13"
+PRINCE_VERSION="10r7"
 echo "-----> Installing PrinceXML $PRINCE_VERSION"
 [ -d .downloads ] || mkdir .downloads
 (cd .downloads; [ -d "prince-$PRINCE_VERSION-linux-amd64-static" ] ||
